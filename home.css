@@ -1,0 +1,75 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.homebg {
+  background-image: url("carbg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 670px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+}
+
+.flex-img {
+  justify-content: flex-start;
+}
+
+.flex-list {
+  margin-left: 950px;
+  margin-top: 20px;
+  display: flex;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Main page */
+
+.tagline {
+  text-align: center;
+}
+
+/* Tagline */
+
+.tagline-later {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Last container */
+
+.last-container {
+  display: flex;
+  align-items: stretch;
+  padding-left: 300px;
+}
+
+.last-container-img {
+  padding: 10px;
+}
+
+.last-container-text {
+  margin-top: 100px;
+  padding-left: 20px;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+}
